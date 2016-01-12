@@ -1,5 +1,8 @@
 #ArbiterHandler
 
+TO DO:  
+* 子进程被Kill后会出现僵尸进程
+
 方便的用来管理python下的工作进程,并且可以接受Signal,自动管理异常退出的进程. 上次也分享了类Master Worker的框架，但因为抄袭了部分gunicorn结构, 所以代码显得很是复杂.
 
 `信号方面是抄袭了gunicorn操作模式`
